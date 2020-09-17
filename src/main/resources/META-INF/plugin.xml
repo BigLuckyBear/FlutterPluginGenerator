@@ -20,5 +20,9 @@
 
     <actions>
         <!-- Add your actions here -->
+        <action id="defaultFlutterPluginGenerator" class="com.tencent.flutter.plugin.generator.action.FlutterPluginApiAction" text="Flutter Plugin Generator"
+                description="auto generate a flutter plugin">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
     </actions>
 </idea-plugin>
